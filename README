@@ -1,0 +1,9 @@
+streamsMt - Multithreaded stream oriented message processing
+
+1) Installation
+
+
+------------------------------------------------------------------------
+Installation
+
+$ python setup install --home ~/.local
