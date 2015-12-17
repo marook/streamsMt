@@ -1,9 +1,26 @@
 streamsMt - Multithreaded stream oriented message processing
 
-1) Installation
+1) Introduction
+2) Installation
+3) Usage
+4) Example
+
+
+------------------------------------------------------------------------
+Introduction
+
+streamsMt allows processing of messages in multiple steps. Each step
+executes in it's own process. A step is a function which may have an
+input (source) and output (sink) queue assigned.
 
 
 ------------------------------------------------------------------------
 Installation
 
 $ python setup install --home ~/.local
+
+
+------------------------------------------------------------------------
+Example
+
+For an example see streamsMtExample.py
